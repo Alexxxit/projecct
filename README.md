@@ -1,10 +1,11 @@
 # vue_coincap_app
 
+
 > A Vue.js project
 
 ## Build Setup
 
-
+``` bash
 # install dependencies
 npm install
 
