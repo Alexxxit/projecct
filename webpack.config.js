@@ -9,7 +9,7 @@ module.exports = {
   output: {
 	  
   path: path.resolve(__dirname, './dist'),
-    //publicPath: '/dist/',
+  
 	publicPath: process.env.NODE_ENV === 'production'
     ? '/folder/'
     : '/',
@@ -83,11 +83,7 @@ module.exports = {
     
   },
  
-  /*optimization: { 
-  namedModules: true,
-  namedChunks: true,
-  splitChunks: { cacheGroups:
-  { default: false } } }, */
+ 
   resolve: {
    
     alias: {
